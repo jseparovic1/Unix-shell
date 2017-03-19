@@ -1,5 +1,5 @@
 # Unix-shell
-My unix shell
+Simple unix shell
 
 # Installation
 ```
@@ -11,21 +11,21 @@ $ ./jusepShell
 
 Built in commands :
 ```
-$ help
-$ cd
-$ kill
-$ clear
-$ exit
+$ ./jusepShell help
+$ ./jusepShell cd
+$ ./jusepShell kill
+$ ./jusepShell clear
+$ ./jusepShell exit
 ```
 
 # Extra
 Redirection
 ```
-$ ls -al > output.txt
+$ ./jusepShell ls -al > output.txt
 ```
 Pipes
 ```
-$ cat numbers.txt | sort
+$ ./jusepShell cat numbers.txt | sort
 ```
 
 Shell also supports any other unix command.
